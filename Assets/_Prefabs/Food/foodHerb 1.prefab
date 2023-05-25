@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5724312319007936121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5724312319007936122}
+  - component: {fileID: 5724312319007936123}
+  - component: {fileID: -2642470975550516971}
+  - component: {fileID: 5724312319007936120}
+  m_Layer: 0
+  m_Name: foodHerb 1
+  m_TagString: Evo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5724312319007936122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5724312319007936121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5724312319007936123
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5724312319007936121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2642470975550516971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5724312319007936121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54fb98448667ae646b90ed5827c6aa27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evoCount: 5
+  effect: {fileID: 421399479913250815, guid: 8d8c74b8bceef3945a54b95e2947b2a8, type: 3}
+--- !u!114 &5724312319007936120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5724312319007936121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33af0f6b999eac4c99ece729eeb8820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eatCount: 15
+  predator: 1
+  scavenger: 0
+  foods:
+  - {fileID: 2034407951177528450, guid: 53fa08cca4253774e83ebbd18644afd2, type: 3}
+  - {fileID: 1564877338814374036, guid: 525620e330e4da24d98052e4506bc714, type: 3}
+  - {fileID: 3196599440459867884, guid: 07a18b6318758f5459599ecf16c3dd13, type: 3}
+  - {fileID: 8422122121920903166, guid: 20e6942a7a1544f45b562606216880b8, type: 3}
+  - {fileID: 6287246661771054, guid: daefbdb7c54ac5c458276a3d0a22712a, type: 3}
+  - {fileID: 5289756125827011316, guid: e7996a63669662a42a1328bfc29eea82, type: 3}
+  - {fileID: 1659039358897411263, guid: f78edf3a79aedfe43b8de5a92c5d56e7, type: 3}
+  - {fileID: 7795883877826670697, guid: ce5c7c7b5e9a75c44bc9e3e8ea6f9f24, type: 3}
+  - {fileID: 6241794626368930333, guid: 0e5752eeb0bf3a9489c7d277482adb8d, type: 3}
+  - {fileID: 6078643666378225487, guid: 8ff13d1018ac6d649b995da31c968362, type: 3}

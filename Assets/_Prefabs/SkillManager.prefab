@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3305627643536298607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3305627643536298605}
+  - component: {fileID: 3305627643536298604}
+  m_Layer: 0
+  m_Name: SkillManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3305627643536298605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305627643536298607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 353.7257, y: 543.3538, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3305627643536298604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305627643536298607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5d2c2908231a844999d7c9d92f0987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectSkills: {fileID: 2649699234295463643, guid: 6006594cddd4de441b98f5596d146492,
+    type: 3}
+  skillDescription:
+  - Now your food is other animals
+  - You are now evolving faster
+  - Your movement speed is increased
+  - You are now evolving faster
+  - Your movement speed is increased
+  - You are now evolving faster
+  - Your view has been increased
+  - Your movement speed is increased
+  - When attacked by a predator, you will run away
+  - Now you see animals nearby
+  - Your movement speed is increased
+  - You are now evolving faster
+  - In the grass you will be invisible
+  - Increased speed when chasing an animal
+  - Don't move and you can hide underground
+  - Now only a flying predator can kill you
+  skillPrefabs:
+  - {fileID: 6538114925404906415, guid: 6c5e9e3ee832be54cad7b86883d8ceb3, type: 3}
+  - {fileID: 6538114925404906415, guid: bcaeb01b5e680c84899ebd1ee58cb827, type: 3}
+  - {fileID: 6538114925404906415, guid: 3bde25b0cde6268448fc5a06b5ebc9cc, type: 3}
+  - {fileID: 6538114925404906415, guid: bcaeb01b5e680c84899ebd1ee58cb827, type: 3}
+  - {fileID: 6538114925404906415, guid: 3bde25b0cde6268448fc5a06b5ebc9cc, type: 3}
+  - {fileID: 6538114925404906415, guid: bcaeb01b5e680c84899ebd1ee58cb827, type: 3}
+  - {fileID: 6538114925404906415, guid: 346d53e39fe90884aa16996ebb21faf4, type: 3}
+  - {fileID: 6538114925404906415, guid: 3bde25b0cde6268448fc5a06b5ebc9cc, type: 3}
+  - {fileID: 6538114925404906415, guid: ea583ce0dd3716f49964ab6c0e60efe2, type: 3}
+  - {fileID: 6538114925404906415, guid: eb27884062c67aa4383ffca601122c6c, type: 3}
+  - {fileID: 6538114925404906415, guid: 3bde25b0cde6268448fc5a06b5ebc9cc, type: 3}
+  - {fileID: 6538114925404906415, guid: bcaeb01b5e680c84899ebd1ee58cb827, type: 3}
+  - {fileID: 6538114925404906415, guid: 96c5deb25675a5848a4ebb7e34c44bea, type: 3}
+  - {fileID: 6538114925404906415, guid: be6eef75bc0a0534e9edfb95a0174961, type: 3}
